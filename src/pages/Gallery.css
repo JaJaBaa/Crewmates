@@ -1,0 +1,126 @@
+.gallery h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.empty-gallery {
+  text-align: center;
+  padding: 3rem;
+  background-color: #1a1a1a;
+  border-radius: 8px;
+}
+
+.empty-gallery p {
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+  color: #e0e0e0;
+}
+
+.loading {
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 2rem;
+}
+
+.crewmate-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.crewmate-card {
+  background-color: #1a1a1a;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.crewmate-card:hover {
+  transform: translateY(-5px);
+}
+
+.crewmate-card h2 {
+  margin-bottom: 0.5rem;
+  color: #646cff;
+}
+
+.crewmate-card .role {
+  color: #888;
+  margin-bottom: 1.5rem;
+  font-style: italic;
+}
+
+.attributes {
+  margin-bottom: 1.5rem;
+}
+
+.attribute {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.attribute-label {
+  font-weight: 500;
+  color: #646cff; /* Change to a brighter color that matches your theme */
+}
+
+.attribute-value {
+  color: #888;
+}
+
+.crewmate-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.view-btn,
+.edit-btn,
+.delete-btn {
+  flex: 1;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 0.9rem;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.view-btn {
+  background-color: #333;
+  color: white;
+}
+
+.view-btn:hover {
+  background-color: #444;
+}
+
+.edit-btn {
+  background-color: #4d4dff;
+  color: white;
+}
+
+.edit-btn:hover {
+  background-color: #3a3abf;
+}
+
+.delete-btn {
+  background-color: #ff4d4d;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #bf3a3a;
+}
+
+.error-message {
+  background-color: rgba(255, 0, 0, 0.1);
+  color: #ff6b6b;
+  padding: 1rem;
+  border-radius: 4px;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}

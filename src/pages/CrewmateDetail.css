@@ -1,0 +1,162 @@
+.crewmate-detail {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.detail-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.detail-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: #646cff;
+}
+
+.detail-header .role {
+  font-size: 1.2rem;
+  color: #888;
+  font-style: italic;
+}
+
+.detail-card {
+  background-color: #1a1a1a;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.detail-section {
+  margin-bottom: 2rem;
+}
+
+.detail-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #333;
+}
+
+.attribute-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.attribute-bar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.bar-label {
+  width: 120px;
+  font-weight: 500;
+}
+
+.bar-container {
+  flex: 1;
+  height: 12px;
+  background-color: #333;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.bar-fill {
+  height: 100%;
+  border-radius: 6px;
+}
+
+.bar-fill.slow,
+.bar-fill.weak,
+.bar-fill.low {
+  background-color: #ff4d4d;
+}
+
+.bar-fill.medium {
+  background-color: #ffcc00;
+}
+
+.bar-fill.fast,
+.bar-fill.strong,
+.bar-fill.high {
+  background-color: #66cc66;
+}
+
+.bar-value {
+  width: 80px;
+  text-align: right;
+  color: #888;
+}
+
+.info-item {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.info-label {
+  width: 120px;
+  font-weight: 500;
+}
+
+.info-value {
+  color: #888;
+}
+
+.detail-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.btn {
+  flex: 1;
+  display: inline-block;
+  padding: 0.75rem 1rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-primary {
+  background-color: #646cff;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #535bf2;
+}
+
+.btn-secondary {
+  background-color: #333;
+  color: white;
+}
+
+.btn-secondary:hover {
+  background-color: #444;
+}
+
+.btn-danger {
+  background-color: #ff4d4d;
+  color: white;
+}
+
+.btn-danger:hover {
+  background-color: #bf3a3a;
+}
+
+.loading,
+.error-container {
+  text-align: center;
+  padding: 3rem;
+}
+
+.error-container .error-message {
+  margin-bottom: 2rem;
+}
